@@ -1,2 +1,7 @@
-# Ignore only raw data
+# Ignore trained model files
+models/*.keras
+models/*.h5
+# Ignore raw and large data files
 data/raw/
+data/processed/
+data/results/
